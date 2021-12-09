@@ -98,15 +98,42 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+
+  display: flex;
+  align-items: center;
 }
 
 .email-tel:nth-child(1) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
+}
+
+.icon-email {
+  width: 16px;
+  height: 12px;
+  fill: var(--primary-text-color);
+  margin-right: 10px;
+}
+
+.icon-email:hover,
+.icon-email:focus {
+  fill: var(--accent-color);
+}
+
+.icon-tel {
+  width: 10px;
+  height: 16px;
+  fill: var(--primary-text-color);
+  margin-right: 10px;
+}
+
+.icon-tel:hover,
+.icon-tel:focus {
+  fill: var(--accent-color);
 }
 
 /* FOOTER */
