@@ -1,0 +1,233 @@
+/* --------- CSS for Studio --------- */
+
+/* HERO */
+
+.hero {
+  text-align: center;
+  background-color: #2f303a;
+  padding: 200px 0;
+}
+
+.hero > .hero-title {
+  color: var(--hero-text-color);
+
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero > .button {
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  background-color: var(--accent-color);
+  color: var(--hero-text-color);
+  cursor: pointer;
+  font-family: inherit;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9px;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: transparent;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+/* OUR FEATURES */
+.features {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team {
+  display: flex;
+}
+
+.features .text {
+  font-size: 14px;
+  line-height: 1.71;
+  margin: 0;
+}
+
+.space-one:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features.no-marker {
+  margin: 0;
+}
+
+.team.no-marker {
+  margin: 0;
+}
+
+.team > .space-two {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-right: 30px;
+  text-align: center;
+  background-color: var(--hero-text-color);
+}
+
+.section-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.section-title.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.features .title-one {
+  color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.team .title-two {
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  padding: 30px 0 10px;
+  margin: 0;
+}
+
+.features p {
+  margin-bottom: 30px;
+}
+
+.team p {
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+/* WHAT WE DO */
+
+.pics {
+  display: flex;
+  padding-bottom: 94px;
+}
+
+/* OUR TEAM */
+.section.team {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* --------- CSS for Portfolio --------- */
+.project-title.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin: 94px 0 50px;
+}
+.filter > .buttons {
+  background-color: var(--filter-color);
+  color: var(--secondary-text-color);
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: none;
+  margin-right: 8px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.filter > .buttons:hover,
+.filter > .buttons:focus,
+.filter > .accent {
+  background-color: var(--accent-color);
+  color: var(--hero-text-color);
+}
+.filter > .accent {
+  border-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.works .work-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  padding: 20px 24px 4px;
+  margin: 0;
+}
+
+.works .desc {
+  font-size: 16px;
+  line-height: 1.87;
+
+  padding: 0 24px 20px;
+  margin: 0;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+  width: inherit;
+}
+
+.work-list {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+}
+
+.works .work-pic {
+  display: block;
+  max-width: 100%;
+}
+
+.team .work-pic {
+  display: block;
+}
