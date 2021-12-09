@@ -112,28 +112,14 @@ body {
   color: var(--accent-color);
 }
 
-.icon-email {
-  width: 16px;
-  height: 12px;
-  fill: var(--primary-text-color);
-  margin-right: 10px;
-}
-
-.icon-email:hover,
-.icon-email:focus {
+.contact:hover .contact-icon,
+.contact:focus .contact-icon {
   fill: var(--accent-color);
 }
 
-.icon-tel {
-  width: 10px;
-  height: 16px;
+.contact-icon {
   fill: var(--primary-text-color);
   margin-right: 10px;
-}
-
-.icon-tel:hover,
-.icon-tel:focus {
-  fill: var(--accent-color);
 }
 
 /* FOOTER */
