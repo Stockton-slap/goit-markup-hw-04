@@ -258,6 +258,11 @@
   line-height: 1.6;
 }
 
+.filter > .buttons:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .filter > .buttons:hover,
 .filter > .buttons:focus,
 .filter > .accent {
@@ -303,6 +308,12 @@
   box-sizing: border-box;
   width: 370px;
   height: 404px;
+}
+
+.work-list:hover,
+.work-list:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .works .work-pic {
