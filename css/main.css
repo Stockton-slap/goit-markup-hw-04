@@ -59,6 +59,7 @@
   text-align: center;
   margin: 0;
   padding-bottom: 50px;
+  padding-top: 94px;
 }
 
 .section-title.visually-hidden {
@@ -77,7 +78,6 @@
 .features {
   display: flex;
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .features p {
@@ -87,10 +87,6 @@
 .features .text {
   font-size: 14px;
   line-height: 1.71;
-  margin: 0;
-}
-
-.features.no-marker {
   margin: 0;
 }
 
@@ -105,11 +101,6 @@
 
 .space-one:not(:last-child) {
   margin-right: 30px;
-}
-
-.space-one > .icon {
-  width: 270px;
-  height: 120px;
 }
 
 /* WHAT WE DO */
@@ -130,9 +121,6 @@
   margin: 0;
 }
 
-.team.no-marker {
-  margin: 0;
-}
 .team .title-two {
   color: var(--secondary-text-color);
 
@@ -157,7 +145,6 @@
 }
 .section.team {
   background-color: #f5f4fa;
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -173,7 +160,7 @@
   display: flex;
 }
 
-.icon-link {
+.icon-list {
   width: 44px;
   height: 44px;
   border: none;
@@ -182,16 +169,59 @@
   display: flex;
   margin-right: 10px;
   justify-content: center;
+  background-color: var(--hero-text-color);
 }
 
-.icon-link:nth-child(4) {
+.icon-list:nth-child(4) {
   margin-right: 0;
 }
 
-.space-two .icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 auto;
+.icon {
+  fill: var(--icon-color);
+}
+
+.icon-list:hover,
+.icon-list:focus {
+  background-color: var(--accent-color);
+}
+
+.icon-list:hover .icon,
+.icon-list:focus .icon {
+  fill: var(--hero-text-color);
+}
+
+/* CLIENTS */
+
+.clients {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+
+.client-list {
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  margin-right: 30px;
+  padding: 16px 32px;
+  background-color: var(--hero-text-color);
+}
+
+.client-list:hover,
+.client-list:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.client-list:nth-child(6) {
+  margin-right: 0;
+}
+
+.client-list:hover .client-link,
+.client-list:focus .client-link {
+  fill: var(--accent-color);
+}
+
+.client-link {
+  fill: var(--icon-color);
 }
 
 /* --------- CSS for Portfolio --------- */
