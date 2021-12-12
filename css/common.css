@@ -212,10 +212,6 @@ body {
   list-style: none;
 }
 
-.footer-icons a {
-  display: flex;
-}
-
 .footer-list {
   width: 44px;
   height: 44px;
