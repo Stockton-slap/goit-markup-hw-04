@@ -105,6 +105,13 @@
   margin-right: 30px;
 }
 
+.features-icon {
+  background-color: #f5f4fa;
+  padding: 25px 100px;
+  display: block;
+  margin-bottom: 30px;
+}
+
 /* WHAT WE DO */
 
 .pics {
